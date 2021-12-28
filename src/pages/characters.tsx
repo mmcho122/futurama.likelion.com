@@ -54,14 +54,11 @@ const Container = styled.div`
 `
 
 const Overlay = styled.div`
-    display: none;
+   
 `
 
 const ItemList = styled.ul`
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+   
 `
 
 const Card = styled.div`
@@ -70,10 +67,7 @@ const Card = styled.div`
     }
 `
 const ImageContainer = styled.div`
-    height: 416px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
 `
 const ProfilePic = styled.img`
     max-height: 416px;
@@ -82,47 +76,11 @@ const ProfilePic = styled.img`
 `
 
 const CardContainer = styled.div`
-    min-width: 300px;
-    height: 456px;
-    display: block;
-    margin: 0 auto;
-    border: solid 2px #f2f2f2;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    perspective: 500px;
-    &:hover {
-        background: linear-gradient(#DD171B,#8D1015);
-        border: solid 3px #FDFE95;
-        box-shadow: 0px 00px 10px #333;
-        box-sizing: border-box;
-        color: #fff;
-        transition: .2s;
-        width: 300px;
-        div:first-child {
-            display: none;
-        }
-        div:last-child {
-            object-fit: contain;
-            display: block;
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-            dl {
-                display: flex;
-                height: 300px;
-                flex-direction: column;
-                justify-content: space-evenly;
-            }
-        }
-    }
+    
 `
 
 const Name = styled.li`
-    margin: 0 auto;
-    border-bottom: solid 1px #fff;
-    padding-bottom: 10px;
-    font-weight: 500;
+
     
 `
 

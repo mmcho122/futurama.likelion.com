@@ -51,7 +51,6 @@ const Nav = styled.ul`
 const Menu = styled.li`
     margin: 20px;
     font-weight: 600;
-    };
 `
 
 
